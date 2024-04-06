@@ -19,6 +19,8 @@ main {
     font-family: 'Cormorant Garamond', serif;
     margin: auto;
     width: 80%;
+    padding: 0px 10px;
+    /* padding: 10px; */
 }
 
 .container {
@@ -36,9 +38,9 @@ main {
 }
 
 .post{
-    border: 1px solid #000;
-    margin-bottom: 30px;
-    padding: 10px;
+    /* border: 1px solid #000; */
+    /* margin-bottom: 30px; */
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,12 +53,33 @@ main {
 }
 
 .post-info{
-    border: 1px solid #002fff;
-    margin: 10px;
+    /* border: 1px solid #002fff; */
+    /* margin: 10px; */
     padding: 10px;
 }
 
 #post-resume{
     color: #AE7A7A;
     font-family: 'Cormorant Garamond regular';
+}
+
+/* Hovers */
+.post:hover{
+    background-color: #581509;
+    /* color: #400101; */
+    border-radius: 21px;
+}
+
+@media (max-width: 360px) {
+    .post {
+        /* justify-content: flex-start; */
+        flex-wrap: wrap;
+    }
+
+    .post img{
+        width: 75%;
+        height: auto;
+        border-radius: 10%;
+    }
+    
 }
