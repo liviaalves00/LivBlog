@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do ADS 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Blog do ADS 3</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Formulários</h2>
+            <p>Busca no Google</p>
+            <form action="http://www.google.com/search" method="get">
+                <label for="q">Termo</label>
+                <input type="text" id="q" name="q" placeholder="Digite sua busca">
+                <input type="submit" value="Pesquisar">
+                <input type="radio" id="all" name="lr"><label for = "all">Todos os idiomas</label>
+                <input type="radio" id = "pt" name="lr" value="lang_pt"><label for = "pt">Português</label>
+                <input type="radio" id = "es" name="lr" value="lang_es"><label for = "es"></label>Espanhol</label>
+                <input type="radio" id = "it" name="lr" value="lang_it"><label for = "it"></label>Italiano</label>
+            </form>
+
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+        <article>
+            <h2>Tabelas</h2>
+            <table class="cadastro">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="impar">
+                        <td class = "id-linha">1</td>
+                        <td>Ely Miranda</td>
+                        <td></td>
+                        <td>99999-9999</td>
+                        <td>Rua 1</td>
+                        <td class = "acoes">
+                            
+                                <a href="#">Editar</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="#">Excluir</a>
+                            
+                        </td>
+                    </tr>
+                    <tr class="par">
+                        <td class = "id-linha">2</td>
+                        <td>João Gabriel</td>
+                        <td>
+                            abc@google.com
+                        </td>
+                        <td>99999-9999</td>
+                        <td>Rua 2</td>
+                        <td class = "acoes">
+                            <a href="#">Editar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr class="impar">
+                        <td class = "id-linha">3</td>
+                        <td>Pedro Silva</td>
+                        <td>
+                            abc@google.com
+                        </td>
+                        <td>99999-9999</td>
+                        <td>Rua 3</td>
+                        <td class = "acoes">
+                            <a href="#">Editar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr class="par">
+                        <td class = "id-linha">4</td>
+                        <td>Rogério Silva</td>
+                        <td>
+                            abc@google.com
+                        </td>
+                        <td>99999-9999</td>
+                        <td>Rua 4</td>
+                        <td class = "acoes">
+                            <a href="#">Editar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#">Excluir</a>
+                        </td>
+                    </tr>
+                    <tr class="impar">
+                        <td class = "id-linha">5</td>
+                        <td>Ricardo Ramos</td>
+                        <td>
+                            abc@google.com
+                        </td>
+                        <td>99999-9999</td>
+                        <td>Rua 5</td>
+                        <td class = "acoes">
+                            <a href="#">Editar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="#">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="exibir-mais">
+                        <td colspan="6">
+                            <a href="#">Exibir mais</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+
+        <article>
+            <h2>Links</h2>
+            <ul>
+                <li><a href="http://www.ifpi.edu.br">IFPI (Link externo) </a></li>
+                <li><a href="http://wikipedia.org" target="_blank">Wikipedia (abre em outra aba) </a></li>
+                <li><a href="contato.html">Contato (relativo)</a></li>
+                <li><a href="#">Link vazio</a></li>
+            </ul>
+
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+
+        <article>
+            <h2>Listas</h2>
+            <p>Lista de prioridades:</p>
+            <ol>
+                <li>Acordar</li>
+                <li>Lavar</li>
+                <li>Tomar café</li>
+                <li value="1">Escovar os dentes</li>
+            </ol>
+
+            <p>A mesma lista não ordenada:</p>
+            <ul>
+                <li class="itemflecha">Acordar</li>
+                <li class="itemquadrado">Lavar</li>
+                <li>Tomar café</li>
+            </ul>
+            <p>Lista de definições:</p>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+
+                <dt>CSS</dt>
+                <dd>Cascade StyleSheets</dd>
+
+                <dt>HTTP</dt>
+                <dd>Hypertext Transfer Protocol</dd>
+            </dl>
+
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+
+        <article>
+            <h2>Imagens</h2>
+            <p>Logo do IFPI:</p>
+            <img src="https://www.ifpi.edu.br/topo_ifpi.png" alt="Logo do IFPI">
+            <p>Imagem relativa à página:</p>
+            <img src="imagens/smile.PNG" alt="Um sorriso desenhado em uma mão com pincel preto">
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+        <article>
+            <h2>Primeira postagem</h2>
+            <p>Nossa primeira postagem é uma demonstração das tags H</p>
+            <p>Exame de vista. Leia o que se pede:</p>
+            <h3>t 6 # j 9</h3>
+            <h4>9 t 9 o 3</h4>
+            <h5>p 5 * r .</h5>
+            <h6>ç 8 ~ r [</h6>
+            <p class="autor">por <a href="mailto:ely.miranda@ifpi.edu.br">Ely Miranda</a> em<span>12/03/2023</span>
+            </p>
+            <p class="subir"><a href="#cabecalho">↑</a></p>
+        </article>
+    </main>
+    <footer id="rodape">
+        <p>Todos os direitos reservados &copy; pela turma do cora&ccedil;&atilde;o &#128151;</p>
+    </footer>
+</body>
+
+</html>
