@@ -9,24 +9,21 @@
     </head>
     <body>
         <header id="cabecalho">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxf_k8YnuP5SVYiYGF3wWGNegWWNF_MXy69ScmkUclvuExcQy7RGbL-48Ky8jG4o4ZsOc7j5BIqFdsBXfaoGIZ7aTa0_LlvxZPoLY25GwrixLQz0XwNSguM03rDNctI9Ffn-qHL9eslhqDYlP-K8U9HD5VYRgVI9kWjt1HJ3Y6z5zoHtzURRNYWd8d0Q/s1920/GQ_Best_Video_Games_of_All_Time.jpg" alt="Poster de Hollow Kight" id="imagem-principal">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#recents">Posts</a></li>
-                    <li><a href="index.html">Sobre</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                </ul>
+            <img src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_1000/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9" id="imagem-principal">
+            <div id="blog-title">
+                <h1>GaymeBLOG</h1>
+                <p>Seu blog de games favorito!</p>
+            </div>
         </header>
         <main>
             <h3 id="recents">Postagens recentes:</h3>
-            <article class="post">
+            <article class="post"  onclick="redirectHollowKnight()">
                 <img src="https://i.pinimg.com/236x/a7/c2/39/a7c239e28e21987157e59020a99f8cb1.jpg" alt="Poster da publicação">
                 <div class="post-info">
                     <p id="category">#Metroidvania</p>
                     <h2 id="post-title">CAVALEIRO VAZIO: UMA ANÁLISE SOCIO-AMBIENTAL DO JOGO.</h2>
                     <p id="post-resume">Hollow Knight é um jogo de ação e aventura em estilo metroidvania 2D que se passa em Hallownest e Deepnest, antigos reinos fictícios. O jogador controla um silencioso receptáculo enquanto explora um mundo subterrâneo. O cavaleiro utiliza uma arma pontiaguda, tanto em combate quanto para interação com o ambiente.</p>
-                    <button id="read-more" onclick="redirectHollowKnight()">Leia mais</button>
+                    <!-- <button id="read-more" onclick="redirectHollowKnight()">Leia mais</button> -->
                     <script>
                         function redirectHollowKnight() {
                             window.location.href = "hollowknight.html";
@@ -38,11 +35,11 @@
             </article>
             <article class="post">
                 <img src="https://s3-external-1.amazonaws.com/romhacking-hacks/hacks/nes/images/titles/2136titlescreen.png" alt="Poster da publicação">
-                <div class="post-info">
+                <div class="post-info" onclick="redirectZelda()">
                     <p id="category">#Adventure</p>
                     <h2 id="post-title">A LENDA DE LINK: UMA ZELDA COM O PASSADO [HA(?)].</h2>
                     <p id="post-resume">The Legend of Zelda é uma série de jogos eletrônicos da Nintendo criada em 1986 por Shigeru Miyamoto e Takashi Tezuka.</p>
-                    <button id="read-more" onclick="redirectZelda()">Leia mais</button>
+                    <!-- <button id="read-more" onclick="redirectZelda()">Leia mais</button> -->
                     <script>
                         function redirectZelda() {
                             window.location.href = "zelda.html";
@@ -53,7 +50,8 @@
             
         </main>
         
-    <footer>
+    </body>
+    <!-- <footer>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -61,7 +59,6 @@
                 <li><a href="index.html">Sobre</a></li>
                 <li><a href="index.html">Contato</a></li>
             </ul>
-    </footer>
-    </body>
+    </footer> -->
 
 </html>
