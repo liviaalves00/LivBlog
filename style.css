@@ -40,10 +40,11 @@
     background-color: var(--color-background);
     position: absolute;
     width: 30%;
-    height: auto;
+    height: fit-content;
     /* margin-top: 41vh; */
-    padding: 2vh;
+    padding: 5vh 0vh;
     bottom: 0vh;
+    left: 20vh;
     /* top: 100%; */
 }
 
@@ -104,8 +105,8 @@ body {
 main {
     /* border: 1px solid #000; */
     font-family: "Acme", sans-serif;
-    margin: auto;
-    width: 80%;
+    margin-left: 10vw;
+    width: 60%;
     padding: 0px 10px 10vw 10px;
     /* padding: 10px; */
 }
@@ -180,20 +181,30 @@ footer{
 }
 
 
-.topicos {
-    
+.topico {
+    display: flex;
+    flex-direction: column;
 }
-#resumo{
-    /* display: flex; */
-    float: left;
+
+.topico-resumo {
+    display: flex;
+
+}
+
+.imagens-topicos-flex {
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+
 }
 
 .resumo{
-    float: left;
     width: 50%;
+    text-align: start;
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     overflow: hidden;
 }
 .imagemResumo{
@@ -202,16 +213,20 @@ footer{
     display: flex;
     align-items: center;
     overflow: hidden;
+    object-fit: scale-down;
 
 }
 #resumeWR {
     width: 300px;
+    align-self: flex-start;
+
 }
 
 .titulos-topicos{
     font-family: "Acme", sans-serif;
     font-size: 30px;
     width: 100px;
+    align-self: flex-start;
   
 }
 .imagens-topicos{
@@ -222,4 +237,20 @@ footer{
 .paragrafos-topicos{
     font-size: 18px;
 
+
+}
+
+#knight{
+    width: 80%;
+    height: auto;
+}
+
+#imagemWR{
+    width: 90%;
+    height: auto;
+}
+
+#imagem-wr-resume{
+    width: 100%;
+    height: auto;
 }
