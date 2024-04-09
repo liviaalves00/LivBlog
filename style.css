@@ -186,8 +186,28 @@ footer{
 #resumo{
     /* display: flex; */
     float: left;
+}
+
+.resumo{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.imagemResumo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 
 }
+#resumeWR {
+    width: 300px;
+}
+
 .titulos-topicos{
     font-family: "Acme", sans-serif;
     font-size: 30px;
